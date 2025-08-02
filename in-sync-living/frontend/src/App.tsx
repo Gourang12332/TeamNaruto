@@ -15,6 +15,8 @@ import Voice from "./pages/Voice";
 import Gallery from "./pages/Gallery";
 import Splits from "./pages/Splits";
 import MatchMeter from "./pages/MatchMeter";
+import Style from "./pages/Style";
+import Chat from "./pages/Chat";
 
 const queryClient = new QueryClient();
 
@@ -41,6 +43,9 @@ const App = () => (
           {/* <Route path="*" element={<NotFound />} /> */}
           <Route path="/roomgallery" element={<Gallery />} />
           <Route path="/matches" element={<MatchMeter />} />
+          <Route path="/style" element={<Style />} />
+          <Route path="/chat" element={<Chat />} />
+
 
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
         </Routes>
